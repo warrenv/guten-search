@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "rules": {
+    "no-sequences": "off",
+    "semi": ["error", "never"],
+    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+    "comma-dangle": ["error", "always-multiline"]
+  }
+}
